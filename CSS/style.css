@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,11 +8,10 @@
 }
 
 html{
-  background-image: url(./assets/bg.png);
+  background-image:url("/assets/bg.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:contain;
 }
-
 
 .navbar{
   padding: 30px;
@@ -40,18 +39,8 @@ html{
   width: 140px;
 }
 
-.phone{
-  color: white;
 
-}
 
-.phone i{
-  font-size: 3rem;
-}
-.phone h1{
-  display: inline-block;
-  
-}
 
 .hrline{
   /* background-color: white;
